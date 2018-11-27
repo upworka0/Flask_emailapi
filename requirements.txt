@@ -1,0 +1,9 @@
+google-api-python-client
+oauth2client
+requests
+apscheduler==2.1.2
+pytz
+
+
+pkill gunicorn
+gunicorn app:app -b 0.0.0.0:5000 --timeout 300
